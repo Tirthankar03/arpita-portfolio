@@ -2,26 +2,30 @@ import React from "react";
 import { motion } from "framer-motion";
 import { containerL, containerR, containerT } from "../utils/helpers";
 
+import excelPic from "../assets/Excel-Skills-for-Business-Specialization.png";
+import DPPic from "../assets/Dynamic-Programming-Greedy-Algorithm.png";
+import GenAIPic from "../assets/Generative-AI-with-Large-Language-Models.png";
+
 const CERTIFICATES = [
   {
     title: "Excel Skills for Business Specialization",
     issuer: "Coursera",
     date: "May 2024",
-    img: "../src/assets/Excel-Skills-for-Business-Specialization.png",
+    img: excelPic,
     pdf: "../src/assets/Excel-Skills-for-Business-Specialization.pdf"
   },
   {
     title: "Dynamic Programming, Greedy Algorithm",
     issuer: "Coursera",
     date: "April 2024",
-    img: "../src/assets/Dynamic-Programming-Greedy-Algorithm.png",
+    img: DPPic,
     pdf: "../src/assets/Dynamic-Programming-Greedy-Algorithm.pdf"
   },
   {
     title: "Generative AI with Large Language Models",
     issuer: "Coursera",
     date: "March 2024",
-    img: "../src/assets/Generative-AI-with-Large-Language-Models.png",
+    img: GenAIPic,
     pdf: "../src/assets/Generative-AI-with-Large-Language-Models.pdf"
   },
 ];
