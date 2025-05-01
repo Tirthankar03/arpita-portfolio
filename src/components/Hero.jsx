@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants/";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/arpitaProfile.jpeg";
 import { motion } from "framer-motion";
 import { containerL, containerR } from "../utils/helpers";
 
@@ -27,7 +27,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Data Analyst
             </motion.span>
             <motion.p
               variants={containerL(1)}
@@ -47,7 +47,8 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               src={profilePic}
-              alt="Tirthankar Nath"
+              alt="Arpita Dutta"
+              className="max-w-[500px] max-h-[500px] rounded-lg"
               srcset=""
             />
           </div>

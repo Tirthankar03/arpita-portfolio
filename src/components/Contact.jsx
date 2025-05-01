@@ -2,6 +2,7 @@ import React from "react";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import { containerL, containerR, containerT } from "../utils/helpers";
+
 const Contact = () => {
   return (
     <div className="border-b border-slate-800 pb-20">
@@ -22,10 +23,45 @@ const Contact = () => {
         >
           {CONTACT.address}
         </motion.p>
-        <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href="#" className="border-b">
+        <motion.p
+          variants={containerL(0.3)}
+          initial="hidden"
+          whileInView="visible"
+          className="my-4"
+        >
+          {CONTACT.phoneNo}
+        </motion.p>
+        <motion.a
+          variants={containerL(0.4)}
+          initial="hidden"
+          whileInView="visible"
+          href={`mailto:${CONTACT.email}`}
+          className="my-4 block border-b hover:text-white"
+        >
           {CONTACT.email}
-        </a>
+        </motion.a>
+        <motion.a
+          variants={containerL(0.5)}
+          initial="hidden"
+          whileInView="visible"
+          href={CONTACT.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="my-4 block border-b hover:text-white"
+        >
+          LinkedIn
+        </motion.a>
+        <motion.a
+          variants={containerL(0.6)}
+          initial="hidden"
+          whileInView="visible"
+          href={CONTACT.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="my-4 block border-b hover:text-white"
+        >
+          GitHub
+        </motion.a>
       </div>
     </div>
   );
