@@ -7,8 +7,8 @@ import DPPic from "../assets/Dynamic-Programming-Greedy-Algorithm.png";
 import GenAIPic from "../assets/Generative-AI-with-Large-Language-Models.png";
 
 import excelPDF from "../assets/Excel-Skills-for-Business-Specialization.pdf";
-import DPPDF from "../assets/Dynamic-Programming-Greedy-Algorithm.png";
-import GenAIPDF from "../assets/Generative-AI-with-Large-Language-Models.png";
+import DPPDF from "../assets/Dynamic-Programming-Greedy-Algorithm.pdf";
+import GenAIPDF from "../assets/Generative-AI-with-Large-Language-Models.pdf";
 
 
 const CERTIFICATES = [
