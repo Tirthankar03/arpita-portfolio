@@ -6,27 +6,32 @@ import excelPic from "../assets/Excel-Skills-for-Business-Specialization.png";
 import DPPic from "../assets/Dynamic-Programming-Greedy-Algorithm.png";
 import GenAIPic from "../assets/Generative-AI-with-Large-Language-Models.png";
 
+import excelPDF from "../assets/Excel-Skills-for-Business-Specialization.pdf";
+import DPPDF from "../assets/Dynamic-Programming-Greedy-Algorithm.png";
+import GenAIPDF from "../assets/Generative-AI-with-Large-Language-Models.png";
+
+
 const CERTIFICATES = [
   {
     title: "Excel Skills for Business Specialization",
     issuer: "Coursera",
     date: "May 2024",
     img: excelPic,
-    pdf: "../src/assets/Excel-Skills-for-Business-Specialization.pdf"
+    pdf: excelPDF
   },
   {
     title: "Dynamic Programming, Greedy Algorithm",
     issuer: "Coursera",
     date: "April 2024",
     img: DPPic,
-    pdf: "../src/assets/Dynamic-Programming-Greedy-Algorithm.pdf"
+    pdf: DPPDF
   },
   {
     title: "Generative AI with Large Language Models",
     issuer: "Coursera",
     date: "March 2024",
     img: GenAIPic,
-    pdf: "../src/assets/Generative-AI-with-Large-Language-Models.pdf"
+    pdf: GenAIPDF
   },
 ];
 
